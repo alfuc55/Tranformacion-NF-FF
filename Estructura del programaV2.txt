@@ -1,0 +1,16 @@
+NF_FF_Toolbox/
+├── main_NF_FF.m
+├── config_default.m
+├── run_pipeline.m
+├── antenas/       antena_dipolo.m, antena_apertura.m, antena_medicion_HFSS.m
+├── escaneo/       generar_espiral.m, escribir_puntos_HFSS.m, leer_escaneo_espiral.m,
+│                  osi_reconstruir_grid.m, procesar_E_field_HFSS.m
+├── transformacion/transform_planar_pws.m
+├── metricas/      compute_metrics.m
+├── plotting/      plot_resultados.m, plot_malla_rectangular.m
+├── ref_patron/    ref_patron.m, ref_patron_dipolo.m, ref_patron_apertura.m, ref_patron_HFSS.m
+├── common/        fresnel_G.m, compute_hpbw.m, read_cplx_matrix.m, build_angular_grid.m,
+│                  tschebyscheff_window.m, dirichlet_kernel.m, ellipsoidal_params.m,
+│                  resolve_data_file.m, solicitar_malla_rectangular.m,
+│                  solicitar_dimensiones_antena.m, preprocesar_medicion.m
+└── data/          (aquí van los .txt/.csv/.fld)
